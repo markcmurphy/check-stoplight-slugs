@@ -36,33 +36,38 @@ async function getToc(projectId, branchId) {
     return response;
   }
 
-  return fetch(
-    `https://stoplight.io/api/v1/projects/${projectId}/table-of-contents?branch=${branchId}`
-  )
-    .then(manageErrors)
-    .then((response) => response.json())
-    .then((data) => printSlugs(data))
-    .catch((error) => console.log(error));
+  return (
+    fetch(
+      `https://stoplight.io/api/v1/projects/${projectId}/table-of-contents?branch=${branchId}`
+    )
+      // .then(manageErrors)
+      .then((response) => response.json())
+      .then((data) => printSlugs(data))
+      .catch((error) => console.log(error))
+  );
 }
 
 async function checkTocSlugs(projectId, branchId) {
+  // loop over project IDs
   for (let i = 0; i < projectId.length; i++) {
     const element = projectId[i];
 
     const idArray = await getToc(element, branchId);
     const masterArray = await getToc(element, 'master');
-    let errors = idArray.filter(
-      (slug) =>
-        // let matchPattern = slug.match(/\d+/g);
-        masterArray.includes(slug) !== true
-      // matchPattern != null ? getStatus(slug) : null;
-    );
+    // considered error if slug in branch is not included in master branch
+    let errors = idArray.filter((slug) => masterArray.includes(slug) !== true);
 
-    console.log(
-      '🚀 ~ file: includes.mjs ~ line 72 ~ checkTocSlugs ~ errors',
-      errors
-    );
-    return errors;
+    errors?.forEach((slug) => {
+      fetch(
+        `https://stoplight.io/api/v1/projects/${element}/nodes/${slug}?branch=${branchId}`
+      )
+        // .then(manageErrors)
+        .then((response) => response.json())
+        .then((result) => console.log(result.uri))
+        .catch((error) => console.log(error));
+    });
+    // return errors;
+    // end project ID loop
   }
 }
 
