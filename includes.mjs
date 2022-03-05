@@ -56,14 +56,15 @@ async function checkTocSlugs(projectId, branchId) {
     const masterArray = await getToc(element, 'master');
     // considered error if slug in branch is not included in master branch
     let errors = idArray.filter((slug) => masterArray.includes(slug) !== true);
-
+    // console.log(errors);
     errors?.forEach((slug) => {
       fetch(
         `https://stoplight.io/api/v1/projects/${element}/nodes/${slug}?branch=${branchId}`
       )
         // .then(manageErrors)
         .then((response) => response.json())
-        .then((result) => console.log(result.uri))
+        // .then((result) => result.uri)
+        .then((result) => console.log('🚀 ~ result.uri', result.uri))
         .catch((error) => console.log(error));
     });
     // return errors;
@@ -73,7 +74,8 @@ async function checkTocSlugs(projectId, branchId) {
 
 let apiRef = 'cHJqOjIwNjAz';
 let devDocs = 'cHJqOjI4MDIz';
+let testBranch = 'DEVDOCS-3283-allow-webhook-schemas';
 
 let projectIdArr = [apiRef, devDocs];
 
-checkTocSlugs(projectIdArr, 'filter-test-branch');
+checkTocSlugs(projectIdArr, testBranch);
