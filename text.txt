@@ -1,0 +1,503 @@
+[
+  {
+    from: '/api-reference/storefront/customer-login-sso',
+    to: '/api-reference/ZG9jOjM3Nzc3ODg1-customer-login-sso',
+    type: '302'
+  },
+  {
+    from: '/api-reference/graphql/graphql',
+    to: '/api-reference/ZG9jOjM3NTU0OTM4-graph-ql-storefront-api',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/cookie-consent',
+    to: '/api-reference/YXBpOjEyNzI2NzIw-cookie-consent',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/current-customers',
+    to: '/api-reference/YXBpOjIzMTM2NDU-current-customers',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/customers',
+    to: '/api-reference/YXBpOjg1OTU1NTU-customers',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/carts',
+    to: '/api-reference/YXBpOjIzMTM0ODM-carts',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/checkouts',
+    to: '/api-reference/YXBpOjIzMTM2Mjg-checkouts',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/form-fields',
+    to: '/api-reference/YXBpOjIzMTM2OTI-form-fields',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/storefront-subscriptions',
+    to: '/api-reference/YXBpOjIzMTM4NTg-email-subscriptions',
+    type: '302'
+  },
+  {
+    from: '/api-reference/storefront/orders',
+    to: '/api-reference/YXBpOjIzMTM3MjM-orders',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/carts/cart/createacart',
+    to: '/api-reference/b3A6MzU5MDQxOTM-create-a-cart',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/carts/cart/getacart',
+    to: '/api-reference/b3A6MzU5MDQxOTg-get-a-cart',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/carts/cart/deleteacart',
+    to: '/api-reference/b3A6MzU5MDQyMDA-delete-a-cart',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/carts/cart-items/addcartlineitem',
+    to: '/api-reference/b3A6MzU5MDQxOTQ-add-cart-line-items',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/carts/cart-items/updatecartlineitem',
+    to: '/api-reference/b3A6MzU5MDQxOTY-update-cart-line-item',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/carts/cart-items/deletecartlineitem',
+    to: '/api-reference/b3A6MzU5MDQxOTc-delete-cart-line-item',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/checkouts/checkout/checkoutsbycheckoutidget',
+    to: '/api-reference/b3A6MzY0NTYzMDc-get-a-checkout',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/detailederrors',
+    to: '/api-reference/c2NoOjY4NTUyNjQ-detailed-errors',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/errorresponse',
+    to: '/api-reference/c2NoOjY4NTUyNjI-error-response',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-product-inventory-updated',
+    to: '/api-reference/c2NoOjE5OTI5NjA5-store-product-inventory-order-updated',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/carts',
+    to: '/api-reference/YXBpOjIzMTM0NzY-carts',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/checkouts',
+    to: '/api-reference/YXBpOjIzMTM2MTE-checkouts',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/abandoned-carts',
+    to: '/api-reference/YXBpOjIzMTM0NzQ-abandoned-carts',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/catalog',
+    to: '/api-reference/YXBpOjIzMTM0OTI-catalog',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/channels',
+    to: '/api-reference/YXBpOjIzMTM1OTg-channels',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/currency-api',
+    to: '/api-reference/YXBpOjIzMTg5MjM-currencies',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/customers-v2',
+    to: '/api-reference/YXBpOjc4MjI5MzU-customers-v2',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/customers-v3',
+    to: '/api-reference/YXBpOjIzMTM2NzI-customers-v3',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations',
+    to: '/api-reference/YXBpOjQ4Mzk1OTg-custom-template-associations',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates',
+    to: '/api-reference/YXBpOjY4NTYwMTY-email-templates',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/geography-api',
+    to: '/api-reference/YXBpOjIzMTM2OTQ-geography',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/tokens',
+    to: '/api-reference/YXBpOjIzMTM4NDc-graph-ql-tokens',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/marketing',
+    to: '/api-reference/YXBpOjIzMTM3MDM-marketing',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/orders',
+    to: '/api-reference/YXBpOjIzMjI3NDE-orders-v2',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/order-transactions',
+    to: '/api-reference/YXBpOjIzMTM3MjU-orders-v3',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/payment-methods-api',
+    to: '/api-reference/YXBpOjIzMTM3NTI-payment-methods',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/payment-processing',
+    to: '/api-reference/YXBpOjIzMTM3NTU-payment-processing',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pricing',
+    to: '/api-reference/YXBpOjU1NDY1NzU-pricing',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/price-lists',
+    to: '/api-reference/YXBpOjIzMTM3NjM-price-lists',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/redirects',
+    to: '/api-reference/YXBpOjIzMTM3ODA-redirects-v3',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages',
+    to: '/api-reference/YXBpOjkzNTY4MjU-pages-v3',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages/pages/getpages',
+    to: '/api-reference/b3A6MzU5MDQxMTE-get-pages',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages/pages/createpages',
+    to: '/api-reference/b3A6MzU5MDQxMTI-create-pages',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages/pages/updatepages',
+    to: '/api-reference/b3A6MzU5MDQxMTM-update-pages',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages/pages/deletepages',
+    to: '/api-reference/b3A6MzU5MDQxMTQ-delete-pages',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages/pages/getapage',
+    to: '/api-reference/b3A6NDIyMzQ3MTc-get-a-page',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages/pages/updateapage',
+    to: '/api-reference/b3A6NDIyMzQ3MTg-update-a-page',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pages/pages/deleteapage',
+    to: '/api-reference/b3A6NDIyMzQ3MTk-delete-a-page',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/scripts',
+    to: '/api-reference/YXBpOjIzMTM3ODQ-scripts',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/settings',
+    to: '/api-reference/YXBpOjI0NjI2Mzc-settings',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/shipping-api',
+    to: '/api-reference/YXBpOjIzMTM3OTA-shipping-v2',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/shipping-v3',
+    to: '/api-reference/YXBpOjIzMTM4MDQ-shipping-v3',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/sites',
+    to: '/api-reference/YXBpOjIzMTM4MTE-sites',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/store-content',
+    to: '/api-reference/YXBpOjIzMTM4MjM-store-content',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/subscribers',
+    to: '/api-reference/YXBpOjIzMTM4NTE-subscribers',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/tax-classes-api',
+    to: '/api-reference/YXBpOjIzMTM4NjA-tax-classes',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/tax',
+    to: '/api-reference/YXBpOjkxOTU3MDI-tax-provider-connection',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/themes',
+    to: '/api-reference/YXBpOjIzMTM4NjM-themes',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks',
+    to: '/api-reference/YXBpOjUzMjE4ODQ-webhooks',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/widgets',
+    to: '/api-reference/YXBpOjIzMTM4Nzk-widgets',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/wishlists',
+    to: '/api-reference/YXBpOjIzMTM4OTY-wishlists',
+    type: '302'
+  },
+  {
+    from: '/api-reference/providers/shipping-provider-api',
+    to: '/api-reference/YXBpOjIzMTM4MDg-shipping-provider-api',
+    type: '302'
+  },
+  {
+    from: '/api-reference/providers/tax-provider-api',
+    to: '/api-reference/YXBpOjkxOTU3MDk-tax-provider-api',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations/models/error',
+    to: '/api-reference/c2NoOjEyODI0NjQ2-error',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations/models/errorresponse400',
+    to: '/api-reference/c2NoOjQ4Mzg4OTA-error-response400',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations/models/errorresponse404',
+    to: '/api-reference/c2NoOjQ4Mzg4OTE-error-response404',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations/models/errorresponse409',
+    to: '/api-reference/c2NoOjQ4Mzg4OTI-error-response409',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations/models/errorresponse422',
+    to: '/api-reference/c2NoOjQ4Mzg4OTM-error-response422',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations/models/metapaginationobject',
+    to: '/api-reference/c2NoOjQ4Mzg4OTQ-meta-pagination-object',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/custom-template-associations/models/customtemplateassociation',
+    to: '/api-reference/c2NoOjQ4Mzg4OTg-custom-template-association',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/emailtemplatescollection',
+    to: '/api-reference/c2NoOjY4NTUyNjU-email-templates-collection',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/emailtemplate',
+    to: '/api-reference/c2NoOjY4NTUyNjY-email-template',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/localeobject',
+    to: '/api-reference/c2NoOjY4NTUyNjc-locale-object',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/localecollection',
+    to: '/api-reference/c2NoOjY4NTUyNjg-locale-collection',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/emailtemplateupdate',
+    to: '/api-reference/c2NoOjY4NTUyNjk-email-template-update',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/email-templates/models/scratch',
+    to: '/api-reference/c2NoOjY4NTUyNzA-scratch',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pricing/models/pricingresponse',
+    to: '/api-reference/c2NoOjU1NDY1Njk-pricing-response',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pricing/models/pricerange',
+    to: '/api-reference/c2NoOjU1NDY1NzA-price-range',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pricing/models/itempricing',
+    to: '/api-reference/c2NoOjU1NDY1NzI-item-pricing',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pricing/models/pricingrequest',
+    to: '/api-reference/c2NoOjU1NDY1NzQ-pricing-request',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/pricing/models/bulkpricingtier',
+    to: '/api-reference/c2NoOjU1NDY1Njg-bulk-pricing-tier',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/store-information-api',
+    to: '/api-reference/c2NoOjIzMTMzOTA-store-information',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/tax/models/response-connection',
+    to: '/api-reference/c2NoOjkxOTc0Njc-connection-status',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-cart-created',
+    to: '/api-reference/c2NoOjE5NzA1NTA1-store-cart-created',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-cart-updated',
+    to: '/api-reference/c2NoOjE5OTI5NTcz-store-cart-updated',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-cart-couponapplied',
+    to: '/api-reference/c2NoOjE5OTI5NTc1-store-cart-coupon-applied',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-cart-converted',
+    to: '/api-reference/c2NoOjE5OTI5NTc3-store-cart-converted',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-cart-lineitem-wildcard',
+    to: '/api-reference/c2NoOjIwNjE1OTA1-store-cart-line-item',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-cart-lineitem-created',
+    to: '/api-reference/c2NoOjE5OTI5NTc5-store-cart-line-item-created',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-category-wildcard',
+    to: '/api-reference/c2NoOjIwNjE1OTA2-store-category',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-category-created',
+    to: '/api-reference/c2NoOjE5OTI5NTgz-store-category-created',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-channel-wildcard',
+    to: '/api-reference/c2NoOjIwNjE1OTA3-store-channel',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-channel-created',
+    to: '/api-reference/c2NoOjE5OTI5NTg3-store-channel-created',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-channel-updated',
+    to: '/api-reference/c2NoOjE5OTI5NTg4-store-channel-updated',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-customer-wildcard',
+    to: '/api-reference/c2NoOjIwNjE1OTA4-store-customer',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-customer-created',
+    to: '/api-reference/c2NoOjE5OTI5NTkw-store-customer-created',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-customer-updated',
+    to: '/api-reference/c2NoOjE5OTI5NTkx-store-customer-updated',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-customer-deleted',
+    to: '/api-reference/c2NoOjE5OTI5NTky-store-customer-deleted',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-customer-address-created',
+    to: '/api-reference/c2NoOjE5OTI5NTkz-store-customer-address-created',
+    type: '302'
+  },
+  {
+    from: '/api-reference/store-management/webhooks/models/store-customer-address-updated',
+    to: '/api-reference/c2NoOjE5OTI5NTk0-store-customer-address-updated',
+    type: '302'
+  },
+  ... 1578 more items
+]

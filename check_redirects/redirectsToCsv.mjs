@@ -1,4 +1,4 @@
-let redirects = `from to type
+export let redirects = `from to type
 /api-reference/storefront/customer-login-sso   /api-reference/ZG9jOjM3Nzc3ODg1-customer-login-sso   302
 /api-reference/graphql/graphql   /api-reference/ZG9jOjM3NTU0OTM4-graph-ql-storefront-api   302
 /api-reference/storefront/cookie-consent   /api-reference/YXBpOjEyNzI2NzIw-cookie-consent   302
@@ -1332,7 +1332,7 @@ let redirects = `from to type
 /api/v3   /api-docs   301
 /api/v3/storefront.html   /api-docs/storefront/overview   301
 /api/webhooks-getting-started   /api-docs/store-management/webhooks/overview   301
-/bigcommerce-for-wordpress/changelog/plugin-changelog   https://plugins.trac.wordpress.org/browser/bigcommerce/trunk/CHANGELOG.md?order=name   301
+/bigcommerce-for-wordpress/changelog/plugin-changelog   https:plugins.trac.wordpress.org/browser/bigcommerce/trunk/CHANGELOG.md?order=name   301
 /graphql   /graphql-playground   301
 /stencil-docs/adding-event-hooks-to-your-theme   /stencil-docs/javascript-and-event-hooks/event-hooks   301
 /stencil-docs/adding-event-hooks-to-your-theme/data-tags-event-hooks-reference   /stencil-docs/javascript-and-event-hooks/event-hooks   301
@@ -1505,12 +1505,12 @@ let redirects = `from to type
 /stencil-docs/stencil-theme-editor/config-json-metadata   /stencil-docs/page-builder/defining-global-styles   301
 /stencil-docs/stencil-theme-editor/configuring-stencil-theme-editor   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/stencil-theme-editor/preparing-thumbnail-images   /stencil-docs/deploying-a-theme/preparing-thumbnail-images   301
-/stencil-docs/stencil-theme-editor/schema-json-metadata   https://github.com/bigcommerce/cornerstone/blob/master/schema.json   301
+/stencil-docs/stencil-theme-editor/schema-json-metadata   https:github.com/bigcommerce/cornerstone/blob/master/schema.json   301
 /stencil-docs/stencil-theme-editor/stencil-theme-editor-overview   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/store-design/config-json-metadata   /stencil-docs/page-builder/defining-global-styles   301
 /stencil-docs/store-design/configuring-store-design   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/store-design/preparing-thumbnail-images   /stencil-docs/deploying-a-theme/preparing-thumbnail-images   301
-/stencil-docs/store-design/schema-json-metadata   https://github.com/bigcommerce/cornerstone/blob/master/schema.json   301
+/stencil-docs/store-design/schema-json-metadata   https:github.com/bigcommerce/cornerstone/blob/master/schema.json   301
 /stencil-docs/store-design/store-design-overview   /stencil-docs/page-builder/page-builder-overview   301
 /stencil-docs/template-files   /stencil-docs/storefront-customization/custom-templates   301
 /stencil-docs/template-files/custom-templates   /stencil-docs/storefront-customization/custom-templates   301
@@ -1678,18 +1678,16 @@ let redirects = `from to type
 /legacy/blueprint-reference/blueprint-snippets   /legacy/ZG9jOjIyMDY0Mg-snippets   302
 /legacy/stencil-themes/stored-credit-card-management   /legacy/ZG9jOjIyMDY1Nw-stored-credit-card-management   302`;
 
-
 // TODO: fetch redirects file from https://github.com/bigcommerce-labs/next-dev-center-prototype
 
-
-function convertToCsv(string) {
+export function convertToCsv(string) {
   return string
     .split('\n')
     .map((line) => line.split(/\s+/).join(','))
     .join('\n');
 }
 
-function csvToArray(string, delimiter = ',') {
+export function csvToArray(string, delimiter = ',') {
   let str = convertToCsv(string);
   // slice from start of text to the first \n index
   // use split to create an array from string by delimiter
@@ -1717,4 +1715,8 @@ function csvToArray(string, delimiter = ',') {
   return arr;
 }
 
-// console.log(csvToArray(redirects));
+csvToArray(redirects);
+console.log(
+  '🚀 ~ file: redirectsToCsv.mjs ~ line 1719 ~ csvToArray(redirects)',
+  csvToArray(redirects)
+);
